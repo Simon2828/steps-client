@@ -1,0 +1,17 @@
+.swiped-right {
+    transform: translateX(30px);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.swiped-left {
+    transform: translateX(0px);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.tick-hidden {
+    display: none;
+}

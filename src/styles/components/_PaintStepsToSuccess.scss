@@ -1,0 +1,81 @@
+.paintSteps {
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid $third-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 641px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 8px;
+}
+
+
+.brushColor0 {
+    color: red;
+    margin-bottom: -18px;
+}
+
+.brushColor1 {
+    color: green;
+    margin-bottom: -18px;
+}
+
+.brushColor2 {
+    color: #1F9CE9;
+    margin-bottom: -18px;
+}
+
+.brushColor3 {
+    color: orange;
+    margin-bottom: -18px;
+}
+
+.brushColor4 {
+    color: brown;
+    margin-bottom: -18px;
+}
+
+.brushColor5 {
+    color: purple;
+    margin-bottom: -18px;
+}
+
+.clickedtrue {
+    animation: paint 300ms 1;
+    transition-timing-function: ease-in;
+    margin-left: 0.7em;
+}
+
+.clickedfalse {
+    animation: paintMore 300ms 1;
+    transition-timing-function: ease-in;
+    margin-left: 0.7em;
+}
+
+@keyframes paint {
+    from {
+      transform: rotate(0deg)
+    }
+  
+    to {
+      transform: rotate(-5deg)
+    }
+  }
+
+  @keyframes paintMore {
+    from {
+      transform: rotate(-5deg)
+    }
+  
+    to {
+      transform: rotate(0deg)
+    }
+  }
+
+  .steps.photoSteps {
+      margin-bottom: 0;
+      font-size: 1.9em;
+  }

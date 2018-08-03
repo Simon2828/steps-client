@@ -1,0 +1,25 @@
+button {
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.5rem 0;
+    margin: 0.1rem;
+    width: 9rem;
+    color:$third-color;
+    background: transparent;
+    border: 2px solid $third-color;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+// .button--teacher-login {
+    
+// }
+
+.button--home {
+    left: 0;
+}
+
+.searchButton {
+    left: -2px;
+}

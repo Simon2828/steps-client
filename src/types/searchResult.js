@@ -1,0 +1,1 @@
+export const SET_SEARCHRESULT = 'SET_SEARCHRESULT';
