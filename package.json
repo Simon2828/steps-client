@@ -2,7 +2,7 @@
   "name": "steps",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vigilant-cray-74c9d5.netlify.com",
+  "homepage": "https://peermarker.netlify.com",
   "dependencies": {
     "aws-amplify": "^1.0.1",
     "fuse.js": "^3.2.0",
