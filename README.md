@@ -4,7 +4,7 @@
 
 Built with react, redux serverless and aws. 
 
-peermarker(https://peermarker.netlify.com)
+[peermarker](https://peermarker.netlify.com)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
